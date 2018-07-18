@@ -11,7 +11,7 @@ job("MyProject-Build") {
         git {
             remote {
                 url gitUrl.
-                branch "master"
+                //branch "origin/master"
             }
             extensions {
                 wipeOutWorkspace()
